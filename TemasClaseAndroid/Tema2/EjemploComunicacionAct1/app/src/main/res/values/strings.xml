@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EjemploComunicacionAct1</string>
+    <string name="nombre">Nombre:</string>
+    <string name="verificar">VERIFICAR</string>
+    <string name="resultado">Resultado</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="rechazar">RECHAZAR</string>
+    <string name="cancelar">CANCELAR</string>
+</resources>
