@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">T4_Ejercicio3</string>
+    <string name="abrir_mapa">ABRIR MAPA</string>
+    <string name="tomar_foto">TOMAR FOTO</string>
+    <string name="mandar_coreo">MANDAR COREO</string>
+    <string name="street_view">STREET VIEW</string>
+    <string name="abrir_pagina_web">ABRIR PAGINA WEB</string>
+    <string name="mandar_mensaje">MANDAR MENSAJE</string>
+    <string name="intenciones">Intenciones</string>
+    <string name="llamar_por_telefono">LLAMAR POR TELEFONO</string>
+    <string name="t4_ejercicio3">T4_Ejercicio3</string>
+</resources>

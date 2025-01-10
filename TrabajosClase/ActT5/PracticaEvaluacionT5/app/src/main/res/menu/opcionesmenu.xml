@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/op1" android:title="Contacto">
+        <menu>
+            <item android:id="@+id/llamada" android:title="Telefónico"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/op2" android:title="Calificación de la página"/>
+    <item android:id="@+id/op3" android:title="Acerca de"/>
+</menu>

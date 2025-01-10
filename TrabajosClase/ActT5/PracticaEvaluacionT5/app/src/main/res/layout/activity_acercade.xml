@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#A8A7A7">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#FFFFFF"
+        app:navigationIcon="@drawable/volver"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/crazy_ice"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#6407DE"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/queEs"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/descripcionApp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encargado"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#6407DE"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/diseñador"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicación"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#6407DE"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/ubicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ubicacion"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"/>
+
+
+</LinearLayout>

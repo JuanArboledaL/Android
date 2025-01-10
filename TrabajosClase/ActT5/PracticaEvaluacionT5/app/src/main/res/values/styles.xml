@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--style name="GradientStyle">
+        <item name="android:background">
+            <gradient android:startColor="#FF0000"
+            android:endColor="#00FF00"
+            android:centerColor="#FFFF00"
+            android:angle="45"
+            android:type="linear"
+            />
+        </item>
+        android:background="@style/GradientStyle"
+    </style>-->
+</resources>

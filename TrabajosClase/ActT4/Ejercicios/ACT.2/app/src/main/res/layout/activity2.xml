@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tittle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/bienvenida"
+        android:textColor="#F975D9"
+        android:layout_below="@+id/toolbar"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/tittle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/como_podemos_ayudarte"
+        android:layout_below="@+id/tittle4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnPerderPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tittle5"
+        android:gravity="center"
+        android:text="@string/perderpeso"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnFuerte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPerderPeso"
+        android:gravity="center"
+        android:text="@string/volverFuerte"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnForma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFuerte"
+        android:gravity="center"
+        android:text="@string/enForma"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnForma"
+        android:background="@color/black"
+        android:backgroundTint="#00ff00"
+        android:gravity="center"
+        android:text="@string/siguiente"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnPag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente página"
+        android:backgroundTint="#673AB7"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:onClick="onClick"
+        android:layout_below="@+id/btnSiguiente"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

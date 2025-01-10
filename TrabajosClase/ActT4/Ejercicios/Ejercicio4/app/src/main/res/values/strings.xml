@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio4</string>
+    <string name="truco_o_trato">¿TRUCO O TRATO?</string>
+    <string name="fantasmas">Fantasmas</string>
+    <string name="calabazas">Calabazas</string>
+</resources>

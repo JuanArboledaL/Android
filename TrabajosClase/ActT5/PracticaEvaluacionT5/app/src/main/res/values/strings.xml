@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Crazy-Ice</string>
+    <string name="acercade">Acerca de</string>
+    <string name="calificacion">Calificación</string>
+    <string name="producto">Producto</string>
+    <string name="productos">Productos</string>
+    <string name="categorias">Categorías</string>
+    <string name="drisfrutalo_a_sosbos">Drisfrutalo a sorbos</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="micheladas">Micheladas</string>
+    <string name="precio">Precio:</string>
+    <string name="volver">Volver</string>
+    <string name="euro">€</string>
+    <string name="bienvenida">Bienvenido a Crazy-Ice, elige la categoria de tu producto para así empezar a disfrutar de esta experiecia tan agradable e innovadora</string>
+    <string name="nivel_de_satisfacci_n">Nivel de satisfacción</string>
+    <string name="textoCalificacion">Seleccione la cantidad de estrellas que le da a esta aplicación teniendo encuenta, que tan intuitiva es, aspecto de la aplicación y que tan útil se te hace.</string>
+    <string name="sugerencia">Agradecemos cualquier sugerencia, recuerda que esto nos ayuda a mejorar la experiencia al usuario</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="escribe_aqu_tu_recomendaci_n">Escribe aquí tu recomendación</string>
+    <string name="crazy_ice">Crazy-Ice</string>
+    <string name="ubicacion">Esta es la ubicación de nuestro local, recuerda que hasta el momento no contamos con ventas a domicilio, te esperamos.</string>
+    <string name="queEs">Crazy-Ice es una empresa encargada de brindar nuevas experiencias en cuanto a el consumo del licor, idea para los atrevidos y aventureros.</string>
+    <string name="descripcionApp">Esta aplicación se realizó ya que es nuestra carta digital, así hacer la experiencia del usuario a la hora de elegir un producto mucho más tranquila
+        Versión: .</string>
+    <string name="diseñador">La persona que diseño y desarrollo esta aplición es Juan Esteban Arboleda López, estudiante de segundo de Dam (Desarrollo de Aplicaciones Multiplataformas) del instituto IES Belén.</string>
+</resources>

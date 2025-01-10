@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/encuentaSatisfaccionText"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="italic|bold"/>
+
+    <GridLayout
+        android:id="@+id/utilidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/utilidadtxt"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="5sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#929292"
+            android:layout_columnSpan="5"/>
+
+        <RadioGroup
+            android:id="@+id/grupoUsabilidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/unoUsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unoUsabilidad"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/dosUsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dosUsabilidad"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/tresUsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tresUsabilidad"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/cuatroUsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuatrosabilidad"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/cincoUsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cincoUsabilidad"
+                android:layout_margin="16dp"/>
+        </RadioGroup>
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/disenio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diseniotxt"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="5sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#929292"
+            android:layout_columnSpan="5"/>
+
+        <RadioGroup
+            android:id="@+id/grupoDisenio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/unoDis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unoDisenio"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/dosDise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dosDisenio"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/tresDise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tresDisenio"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/cuatroDise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuatroDisenio"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/cincoDise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cincoDisenio"
+                android:layout_margin="16dp"/>
+        </RadioGroup>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/interes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interestxt"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="5sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#929292"
+            android:layout_columnSpan="5"/>
+
+        <RadioGroup
+            android:id="@+id/grupointeres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/unoInte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unoInteres"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/dosInte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dosInteres"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/tresInte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tresInteres"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/cuatroInte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuatroInteres"
+                android:layout_margin="16dp"/>
+
+            <RadioButton
+                android:id="@+id/cincoInte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cincoDInteres"
+                android:layout_margin="16dp"/>
+        </RadioGroup>
+    </GridLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/btnSatisfaccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnSatisfaccion"
+            android:layout_gravity="right"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="55dp"
+            android:backgroundTint="#787777"/>
+        <Button
+            android:id="@+id/btnPag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguiente página"
+            android:backgroundTint="#787777"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+</LinearLayout>

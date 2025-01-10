@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ActEvaluativaTema1</string>
+    <string name="tittleText">HardTechno</string>
+    <string name="HardText">El hardcore techno es una estilo de música electrónica que se originó en Alemandia a finales de los años 1980, siendo los paises
+        bajos donde se ha gozado de una mayor repercusión cultural y social. Se caracteriza
+        por un tiempo rápido, distorsión de ritmos y samples, todos ellos con melodías disonantes.</string>
+    <string name="finText">Disfruta de la experiencia en una rave</string>
+    <string name="actTextToolBar">Juan Arboleda: Actividad Evaluativa</string>
+    <string name="nombreText">Nombre</string>
+    <string name="fechText">Fecha de Nacimiento</string>
+    <string name="recordatorioText">Crear recordatorio</string>
+    <string name="ButtonText">ACEPTAR</string>
+    <string name="nombreErr">ERROR: No has escrito el nombre</string>
+    <string name="fechaErr">ERROR: No has escrito tu fecha de nacimiento</string>
+    <string name="textoFinalizado">¡Hola {NOMBRE}! Has nacido el {FECHA} </string>
+    <string name="recordatorio">. Se ha creado un recordatorio</string>
+    <string name="encuentaSatisfaccionText">Encuesta de satisfacción del usuario</string>
+    <string name="utilidadtxt">¿Qué tan buena fue la experiencia en cuanto a utilidad?</string>
+    <string name="unoUsabilidad">1</string>
+    <string name="dosUsabilidad">2</string>
+    <string name="tresUsabilidad">3</string>
+    <string name="cuatrosabilidad">4</string>
+    <string name="cincoUsabilidad">5</string>
+    <string name="diseniotxt">¿Que tanto te ha gustado el diseño?</string>
+    <string name="unoDisenio">1</string>
+    <string name="dosDisenio">2</string>
+    <string name="tresDisenio">3</string>
+    <string name="cuatroDisenio">4</string>
+    <string name="cincoDisenio">5</string>
+    <string name="interestxt">¿Que tan interesante te ha parecido el tema?</string>
+    <string name="unoInteres">1</string>
+    <string name="dosInteres">2</string>
+    <string name="tresInteres">3</string>
+    <string name="cuatroInteres">4</string>
+    <string name="cincoDInteres">5</string>
+    <string name="BtnSatisfaccion">ENVIAR</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agenda_telef_nica"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:textSize="35dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="35dp"
+        android:background="#2E66E0"/>
+
+</LinearLayout>

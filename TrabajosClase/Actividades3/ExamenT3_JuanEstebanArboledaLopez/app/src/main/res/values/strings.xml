@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ExamenT3_JuanEstebanArboledaLopez</string>
+    <string name="tituloEx">ExamenTema3</string>
+    <string name="editextUsuario">Usuario</string>
+    <string name="editextContra">Contraseña</string>
+    <string name="btnAceptar">ACEPTAR</string>
+    <string name="introduce_usuario_y_clave">Introduce usuario y clave</string>
+    <string name="txtTitlle2">¿EN QUÉ PARTE TE QUIERES CENTRAR?</string>
+    <string name="barriga">Barriga</string>
+    <string name="muslos">Muslos</string>
+    <string name="brazo">Brazo</string>
+    <string name="gluteos">Gluteos</string>
+    <string name="tittle3">ESTABLECE TU OBJETIVO SEMANAL</string>
+    <string name="hola">Hola</string>
+    <string name="accediendo">Accediendo a la app</string>
+    <string name="bienvenida">Te damos la Bienvenida</string>
+    <string name="como_podemos_ayudarte">¿Como podemos ayudarte?</string>
+    <string name="perderpeso">PERDER PESO</string>
+    <string name="volverFuerte">VOLVER MÁS FUERTE</string>
+    <string name="enForma">MANTENERME EN FORMA</string>
+    <string name="siguiente">SIGUIENTE</string>
+</resources>
