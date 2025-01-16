@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">EjemploRecycleView</string>
-    <string name="insertar">Insertar</string>
-    <string name="borrar">Borrar</string>
-    <string name="mover">Mover</string>
-</resources>

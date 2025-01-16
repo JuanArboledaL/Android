@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploDialogoFragment</string>
+    <string name="alerta">Dialogo Alerta</string>
+    <string name="dialogo_confirmaci_n">Dialogo confirmación</string>
+    <string name="bot_n_de_seleccion">Botón de seleccion</string>
+    <string name="dialogo_radio">Dialogo radio</string>
+    <string name="dialogo_check">Dialogo Check</string>
+    <string name="navidad_2026">Navidad 2026</string>
+    <string name="empieza_la_cuenta_atras">Empieza la cuenta atras</string>
+    <string name="dialogo_personalizado">Dialogo personalizado</string>
+</resources>
