@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">act2</string>
+    <string name="definir_preferencias">DEFINIR PREFERENCIAS</string>
+    <string name="actividad_de_preferencias">ACTIVIDAD DE PREFERENCIAS</string>
+</resources>
