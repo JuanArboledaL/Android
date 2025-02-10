@@ -40,7 +40,7 @@ public class ClientesProvider extends ContentProvider {
 
         public static final String COL_NOMBRE ="nombre";
         public static final String COL_TELEFONO ="telefono";
-        public static final String EMAIL ="COL_EMAIL";
+        public static final String COL_EMAIL ="COL_EMAIL";
     }
 
     //Base de datos
