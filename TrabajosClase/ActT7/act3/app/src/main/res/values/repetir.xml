@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias">
+        <item>Lunes-Viernes</item>
+        <item>Sabado-Domingo</item>
+    </string-array>
+    <string-array name="codDias">
+        <item>lv</item>
+        <item>sd</item>
+    </string-array>
+</resources>

@@ -12,7 +12,7 @@
             android:key="opcion2"
             android:title="Preferencia 3"
             android:summary="Descripcion de la preferencia"
-            android:dialogTitle="Indicar pais"
+            android:dialogTitle="Sistema Operativo"
             android:entries="@array/so"
             android:entryValues="@array/codSo"/>
         <EditTextPreference
