@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
             //insertamos 5 usuarios
             String usuario;
-            for (int i = 0; i<10; i++){
+            for (int i = 0; i<5; i++){
 
                 usuario = "Usuario " + i;
                 db.execSQL("INSERT INTO Usuarios(codigo,nombre) VALUES("+i+",''"+ usuario + "'')");

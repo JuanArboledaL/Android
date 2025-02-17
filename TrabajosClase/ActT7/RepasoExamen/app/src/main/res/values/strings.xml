@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RepasoExamen</string>
+    <string name="peliculas">PELICULAS</string>
+    <string name="a_adir">AÑADIR</string>
+    <string name="cancelar">CANCELAR</string>
+</resources>

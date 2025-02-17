@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">act9</string>
+    <string name="nombre">Nombre:</string>
+    <string name="ingresa_tu_nombre">nombre</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="codigo">Codigo:</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="borrar">BORRAR</string>
+</resources>
