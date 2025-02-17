@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JuanEstebanArboledaExamenBBDD</string>
+    <string name="mis_pel_culas">MIS PELÍCULAS</string>
+    <string name="a_adir">AÑADIR</string>
+    <string name="canc">CANC</string>
+    <string name="tendencia">TENDENCIA</string>
+</resources>

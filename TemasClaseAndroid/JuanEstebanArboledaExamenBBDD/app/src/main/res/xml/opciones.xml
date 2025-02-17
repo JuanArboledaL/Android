@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Reproduccion de video">
+        <ListPreference
+            android:key="datos"
+            android:title="Uso de datos oviles"
+            android:entries="@array/nombre"
+            android:entryValues="@array/val"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notificaciones">
+        <SwitchPreference
+            android:key="notificaciones"
+            android:title="Permitir notificaciones"
+            android:summary="Personalizar ajustes -> Notificaciones"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Autodescargas">
+        <PreferenceScreen android:title="Autodescargas">
+            <SwitchPreference
+                android:key="switchAuto"
+                android:title="Descargas para ti"/>
+            <CheckBoxPreference
+                android:key="ckeck"
+                android:title="Te descargamos una seleccion de series y peliculas para que ssiempre tengas algo que ver"
+                android:dependency="switchAuto"/>
+            <EditTextPreference
+                android:key="espacio"
+                android:title="Asigar almacenamiento"
+                android:summary="¿Cuanto espacio quieres asignar? Indica la cantidad"
+                android:dependency="switchAuto"
+                android:dialogTitle="Indica la cantidad de espaocio asignado"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
