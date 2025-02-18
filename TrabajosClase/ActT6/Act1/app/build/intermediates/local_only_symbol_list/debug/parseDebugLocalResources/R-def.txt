@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id fragmento1
+id fragmento2
+id toolbar
+layout activity_main
+layout fragmento_lyout
+layout fragmento_lyout2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Act1
+style Theme.Act1
+xml backup_rules
+xml data_extraction_rules

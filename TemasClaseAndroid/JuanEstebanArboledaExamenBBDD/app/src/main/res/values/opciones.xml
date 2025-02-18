@@ -3,7 +3,7 @@
     <string-array name="nombre">
         <item>Solo wifi</item>
         <item>Ahorrar Datos</item>
-        <item>Datos Máximo</item>
+        <item>Datos Máximos</item>
     </string-array>
     <string-array name="val">
         <item>wf</item>
