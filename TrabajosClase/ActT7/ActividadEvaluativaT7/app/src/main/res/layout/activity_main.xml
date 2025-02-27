@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="name"
+        android:background="@drawable/modificar"
+        android:hint="@string/buscar_contacto"
+        android:inputType="text"
+        android:padding="8dp"/>
+
+    <ImageButton
+        android:id="@+id/imgAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:src="@drawable/addcontact3"
+        android:onClick="click"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="@string/nombre" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="username"
+                android:hint="@string/nombre_contacto"
+                android:inputType="text"
+                android:layout_marginHorizontal="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/avatar" />
+
+            <Spinner
+                android:id="@+id/spinnerImagenes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="@string/telefono" />
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="emailAddress"
+                android:hint="@string/telefono_contacto"
+                android:inputType="phone"
+                android:layout_marginHorizontal="5dp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_adir"
+                android:layout_marginHorizontal="5dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:backgroundTint="@color/purple"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnUpd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modificar"
+                android:layout_marginHorizontal="5dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:backgroundTint="@color/purple"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelar"
+                android:layout_marginHorizontal="5dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:backgroundTint="@color/purple"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaContactos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
